@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+header{
+
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9e4;
+    margin: 0px auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(47, 73, 122);
+}
+.header-bio h3{
+    text-align: center;
+}
+.header-contract{
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+}
+.header-contract a{
+    color: rgb(47, 73, 122);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 2px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.div-left{
+    width: 30%;
+    float: left;
+}
+.div-right{
+    width: 70%;
+    float: left;
+    font-size: 18px;
+}
+.hr2{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 120px;
+}
+.bottom-container{
+    background-color: rgb(47, 73, 122);
+    text-align: center;
+    padding: 10px
+}
+.bottom-container p{
+    color: white;
+}
